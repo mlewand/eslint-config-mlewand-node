@@ -138,7 +138,7 @@ module.exports = {
 		],
 		"strict": [
 			2,
-			"function"
+			"global"
 		],
 		"valid-typeof": "error",
 		"wrap-iife": [

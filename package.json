@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-mlewand-node",
+  "version": "0.1.0",
+  "description": "ESLint preset for node package projects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlewand/eslint-config-mlewand-node.git"
+  },
+  "author": "Marek Lewandowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlewand/eslint-config-mlewand-node/issues"
+  },
+  "homepage": "https://github.com/mlewand/eslint-config-mlewand-node#readme"
+}

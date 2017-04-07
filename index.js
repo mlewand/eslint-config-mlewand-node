@@ -9,7 +9,7 @@ module.exports = {
 		"no-multiple-empty-lines": "error",
 		"no-else-return": "warn",
 		"no-empty": "warn",
-		"no-implicit-coercion": [ "warn", { "boolean": false } ],
+		"no-implicit-coercion": [ "warn", { "boolean": false }],
 
 		"array-bracket-spacing": [
 			2,
@@ -72,7 +72,6 @@ module.exports = {
 		],
 		"no-debugger": "error",
 		"no-duplicate-case": "error",
-		"no-empty": 0,
 		"no-eq-null": 2,
 		"no-eval": 2,
 		"no-extra-semi": "error",
@@ -92,6 +91,7 @@ module.exports = {
 				"functions": false
 			}
 		],
+		"no-whitespace-before-property": 2,
 		"no-with": 2,
 		"object-curly-spacing": [
 			"error",
@@ -104,6 +104,10 @@ module.exports = {
 		"padded-blocks": [
 			"error",
 			"never"
+		],
+		"quote-props": [
+			"error",
+			"as-needed"
 		],
 		"quotes": [
 			2,

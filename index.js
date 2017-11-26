@@ -6,6 +6,11 @@ module.exports = {
 	"globals": {},
 	"rules": {
 		"camelcase": [ "error" ],
+		"no-multi-spaces": [ "error", {
+			exceptions: {
+				"Property": false
+			}
+		} ],
 		"no-multiple-empty-lines": "error",
 		"no-else-return": "warn",
 		"no-empty": "warn",
@@ -105,6 +110,7 @@ module.exports = {
 			"error",
 			"never"
 		],
+		"object-property-newline": "error",
 		"quote-props": [
 			"error",
 			"as-needed"

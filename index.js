@@ -34,10 +34,7 @@ module.exports = {
 			"all"
 		],
 		"dot-notation": [
-			2,
-			{
-				"allowKeywords": false
-			}
+			2
 		],
 		"eol-last": [
 			"warn",
